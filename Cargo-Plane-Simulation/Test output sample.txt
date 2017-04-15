@@ -1,0 +1,106 @@
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: load
+Cargo Label: cake
+Weight: 2
+Height: 3
+Width: 4
+Length: 5
+Cargo was successfully loaded.
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: load
+Cargo Label: cake
+Error in cargo label input.
+Either the cargo already exist or you entered a blank label. Please try again.
+Cargo Label: apple
+Weight: 4
+Height: 3
+Width: 6
+Length: 7
+Cargo was successfully loaded.
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: load
+Cargo Label: candy
+Weight: 7
+Height: 5
+Width: 2
+Length: 8
+Cargo was successfully loaded.
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: load
+Cargo Label: chips
+Weight: 6.33
+Height: 5
+Width: 2
+Length: 7
+Cargo was successfully loaded.
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: print
+Current City:  New York
+Miles Flown:   0
+Hours Flown:   0
+Fuel Rate:     10 gallons per hour
+Fuel Capacity: 40000        Consumed: 0            Remaining: 40000
+Weight Limit:  50000.00     Loaded:   19.33        Remaining: 49980.67
+Volume Limit:  60000        Loaded:   336          Remaining: 59664
+Current Cargo:
+Label: cake     Weight: 2.00     Volume: 60       Dimensions: 3 X 4 X 5
+Label: apple    Weight: 4.00     Volume: 126      Dimensions: 3 X 6 X 7
+Label: candy    Weight: 7.00     Volume: 80       Dimensions: 5 X 2 X 8
+Label: chips    Weight: 6.33     Volume: 70       Dimensions: 5 X 2 X 7
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: fly
+Input Destination: china
+Input Mileage: 17
+Input Flight Time: 6
+Flight Successful. Arrived at: china
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: unload
+Input Cargo label to be unloaded: computer
+Cargo with label computer does not exist, Unloading failed.
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: chips
+Invalid Command. Please try again.
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: unload
+Input Cargo label to be unloaded: chips
+Cargo with label chips was unloaded.
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: print
+Current City:  china
+Miles Flown:   17
+Hours Flown:   6
+Fuel Rate:     10 gallons per hour
+Fuel Capacity: 40000        Consumed: 60           Remaining: 39940
+Weight Limit:  50000.00     Loaded:   13.00        Remaining: 49987.00
+Volume Limit:  60000        Loaded:   266          Remaining: 59734
+Current Cargo:
+Label: cake     Weight: 2.00     Volume: 60       Dimensions: 3 X 4 X 5
+Label: apple    Weight: 4.00     Volume: 126      Dimensions: 3 X 6 X 7
+Label: candy    Weight: 7.00     Volume: 80       Dimensions: 5 X 2 X 8
+
+Please choose one of the following commands:
+FLY, LOAD, UNLOAD, PRINT, QUIT
+Command: quit
+
+Cargo Plane Simulation Ended
+
+Press any key to continue . . .
